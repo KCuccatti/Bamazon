@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node ./seed/seed-db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KCuccatti/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KCuccatti/Bamazon/issues"
+  },
+  "homepage": "https://github.com/KCuccatti/Bamazon#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.41.0"
+  }
+}
